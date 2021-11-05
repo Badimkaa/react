@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.appWrapper {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+
+  grid-template-areas:
+    'h h'
+    's c';
+
+  grid-template-rows: 60px 880px;
+  grid-template-columns: 2fr 10fr;
+  /* grid-gap: 10px; */
+}
+
+.appContent {
+  grid-area: c;
+  height: 100%;
+  background-image: url(https://kartinkin.com/uploads/posts/2021-01/1611098269_1-p-standartnii-fon-whatsapp-1.jpg);
+  background-size: contain;
+}
